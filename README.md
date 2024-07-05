@@ -1,15 +1,13 @@
-# ollama-rag-manual
+# Ollama text embeding extraction
 
-To install dependencies:
+This lets you extract the embedings of multiple text files and save it into a single file. It also includes a search function to query a model using those embedings.
+
+## Instructions
+
+Put your `.txt` files inside the `inputs` folder. Then run the following commands:
 
 ```bash
 bun install
+bun extract.ts
+bun search.ts <search query>
 ```
-
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.1.17. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.

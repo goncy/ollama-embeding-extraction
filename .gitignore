@@ -175,5 +175,5 @@ dist
 .DS_Store
 
 # Output and inputs
-inputs/
+inputs/*
 output.json
